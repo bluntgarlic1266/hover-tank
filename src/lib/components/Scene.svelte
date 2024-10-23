@@ -1,6 +1,6 @@
 <script lang="ts">
   import { T } from '@threlte/core'
-  import { ContactShadows, Float, Grid, OrbitControls } from '@threlte/extras'
+  import { ContactShadows, Float, Grid, OrbitControls, Environment } from '@threlte/extras'
 </script>
 
 <T.PerspectiveCamera
@@ -16,12 +16,6 @@
     target.y={1.5}
   />
 </T.PerspectiveCamera>
-
-<Environment
-  path="/hover-tank/environment/"
-  files="urban_street_02_1k.hdr"
-  isBackground={true}
-/>
 
 <Environment
   path="/hover-tank/environment/"
